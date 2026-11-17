@@ -1,0 +1,52 @@
+{
+  "name": "dsh-go-phone",
+  "version": "0.1.0",
+  "description": "在 DeepSeek Harness 侧边栏加一个「手机 DSH」按钮：点开就在电脑里用手机上那套 DSH Go 引擎（经 adb 转发 + 本地网关），不用切设备。Sidebar button that opens the DSH engine running on your Android phone inside the desktop Harness.",
+  "type": "module",
+  "main": "lib/index.js",
+  "exports": {
+    ".": "./lib/index.js",
+    "./client": "./client.js",
+    "./gateway/server": "./gateway/server.mjs",
+    "./package.json": "./package.json"
+  },
+  "keywords": [
+    "dsh",
+    "dsh-plugin",
+    "deepseek-harness",
+    "android",
+    "adb",
+    "phone",
+    "mobile",
+    "remote",
+    "harness"
+  ],
+  "engines": {
+    "dsh": ">=0.2.0-rc.1"
+  },
+  "files": [
+    "lib",
+    "client.js",
+    "gateway",
+    "cordis.patch.yml",
+    "catalog",
+    "README.md",
+    "README.zh.md",
+    "LICENSE"
+  ],
+  "dsh": {
+    "bundle": {
+      "patch": "./cordis.patch.yml"
+    },
+    "client": {
+      "platform": "web"
+    }
+  },
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/baidada1020/dsh-go-phone.git"
+  },
+  "homepage": "https://github.com/baidada1020/dsh-go-phone#readme",
+  "author": "baidada1020"
+}

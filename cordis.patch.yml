@@ -1,0 +1,7 @@
+# dsh-go-phone bundle patch
+#
+# 一个 host 行：启动本地网关（把手机上的 DSH 引擎经 adb 转发代理到 127.0.0.1:13100）。
+# 浏览器半边由 package.json 的 dsh.client 清单 + ./client 导出发现，注册侧边栏按钮与全屏浮层。
+- insert:
+    - id: go-phone
+      name: dsh-go-phone

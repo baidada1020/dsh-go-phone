@@ -1,0 +1,43 @@
+{
+  "format": 1,
+  "title": {
+    "en": "Phone DSH",
+    "zh": "手机 DSH"
+  },
+  "description": {
+    "en": "Open the DSH engine running on your Android phone inside the desktop Harness.",
+    "zh": "在电脑的 Harness 里直接打开手机上 DSH Go 的引擎。"
+  },
+  "plugins": [
+    {
+      "name": "dsh-go-phone",
+      "title": {
+        "en": "Phone DSH (dsh-go-phone)",
+        "zh": "手机 DSH（dsh-go-phone）"
+      },
+      "description": {
+        "en": "Adds a sidebar footer button that opens the DSH engine running inside the DSH Go Android app, full-screen inside the desktop Harness. Uses adb port forwarding plus a local gateway (cookie injection, same-origin rewrite, WebSocket passthrough). No third-party server.",
+        "zh": "在侧边栏底部加「📱 手机 DSH」按钮，点开就在电脑的 Harness 里全屏打开手机上 DSH Go 的内置引擎。走 adb 端口转发 + 本地网关（注入会话 cookie、同源改写、WebSocket 透传），不经过第三方服务器。"
+      },
+      "author": "baidada1020",
+      "homepage": "https://github.com/baidada1020/dsh-go-phone#readme",
+      "repository": {
+        "url": "https://github.com/baidada1020/dsh-go-phone"
+      },
+      "versions": [
+        {
+          "version": "0.1.0",
+          "publishTimestamp": 1794947385,
+          "source": {
+            "type": "git",
+            "url": "https://github.com/baidada1020/dsh-go-phone",
+            "commit": "91d67c1d3806b25b0f6e5ee5847f81ac109d398b"
+          },
+          "engines": {
+            "dsh": ">=0.2.0-rc.1"
+          }
+        }
+      ]
+    }
+  ]
+}

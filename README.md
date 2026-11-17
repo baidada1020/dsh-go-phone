@@ -23,7 +23,7 @@ DSH Go runs a Harness engine on the phone at `127.0.0.1:3080`. This plugin:
 
 Add this index under *Plugins › Manage indexes…*:
 
-    https://raw.githubusercontent.com/baidada1020/dsh-go-phone/main/catalog/index.json
+    https://cdn.jsdelivr.net/gh/baidada1020/dsh-go-phone@main/catalog/index.json
 
 Then install `dsh-go-phone` from the market and restart Harness. A manual install (clone into `~/.dsh/profiles/desktop/node_modules/dsh-go-phone`, then add it to `dsh.profile.bundles` in that profile's `package.json`) is described in `README.zh.md`.
 

@@ -27,7 +27,7 @@
 
 Harness › 插件 › 管理索引源… › 添加：
 
-    https://raw.githubusercontent.com/baidada1020/dsh-go-phone/main/catalog/index.json
+    https://cdn.jsdelivr.net/gh/baidada1020/dsh-go-phone@main/catalog/index.json
 
 然后在市场里搜 `dsh-go-phone` 安装，按提示重启 Harness。
 
